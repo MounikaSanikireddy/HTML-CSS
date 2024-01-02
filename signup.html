@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: bold;
+            font-size: larger;
+        }
+        input{
+            padding:8px;
+            border-radius: 3px;
+            border:2px solid gray;
+            font-size:medium;
+        }
+        input:hover{
+            background-color: darkgray;
+            color:white;
+            font-size:medium;
+        }
+        body{
+            background-color: rgba(212, 207, 207, 0.367);
+        }
+    </style>
+    
+</head>
+<body>
+    <form style="margin: auto;width: 35%; margin-top: 100px;" action="./register.html">
+       
+            <legend><h3>Register</h3></legend>
+            <div style="border: 2px solid blue;border-radius: 8px;padding-left:110px; padding-top: 20px;padding-bottom: 20px;padding-right: 20px;background-color: rgb(169, 239, 246);">  
+                <label for="firstname" >Firstname:</label>                                                                                                                                                                                                                                                                                                                                  
+                <input type="text" placeholder="firstname" name="firstname" ><br><br>
+                <label for="lastname">Lastname:</label>
+                <input type="text" placeholder="lastname" name="lastname"/><br><br>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="email@gmail.com" name="email"/><br><br>
+                <label for="gender">Gender:</label>
+                 Male<input type="radio"  name="gender" value="male"/>
+                 Female<input type="radio" name="gender" value="Female"/>
+                 Others<input type="radio" name="gender" value="Others"/><br><br>
+                 <label for="mobile">Mobile No:</label>
+                 <input type="tel" placeholder="Mobile number" name="mobile"><br><br>
+                 <label for="password">Password:</label>
+                 <input type="password" placeholder="password" name="password"><br><br>
+                 <label for="password">c_Password:</label>
+                 <input type="password" placeholder="c_password" name="c_password"><br><br>
+                 <button style="background-color:blue;margin-left: 120px;border:2px solid rgba(160, 160, 239, 0.493);padding: 10px;font-size: medium;border-radius: 6px;color: aliceblue;" type="submit" >Submit</button>
+            </div>
+     
+        
+    </form>
+   
+</body>
+</html>
